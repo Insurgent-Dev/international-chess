@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# ♟️ Chess AI Universe (หมากรุกสากลพรีเมียม)
 
-## Getting Started
+ยินดีต้อนรับสู่ **Chess AI Universe** เว็บแอปพลิเคชันหมากรุกสากลที่รวบรวมความลงตัวระหว่างดีไซน์สมัยใหม่แบบ **Cyberpunk Glassmorphism** และระบบ AI สุดกวน (Sassy AI) ที่พร้อมจะท้าทายคุณในทุุกก้าวเดิน!
 
-First, run the development server:
+![Chess AI Universe Cover](public/next.svg) <!-- เปลี่ยนเป็นภาพสกรีนช็อตจริงของคุณได้ที่นี่ -->
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 จุดเด่นของโปรเจกต์ (Features)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1.  **Cyberpunk Aesthetics**:
+    *   **Glassmorphism UI**: แผงควบคุมและกระดานโปร่งแสง พร้อมเอฟเฟกต์ Blur คุณภาพสูง
+    *   **3D Perspective**: กระดานหมากรุกมุมมอง 3 มิติ มั่นคง พรีเมียม
+    *   **Dynamic Theming**: ระบบเปลี่ยนสีธีม (Cyan, Amber, Purple, Red) ตามระดับความยากของคู่ต่อสู้
+    *   **Flowing Neon Pulse**: โลโก้ขนาดใหญ่พร้อมแอนิเมชันนีออนนุ่มนวลที่ดูมีพลัง
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+2.  **Sassy AI Personalities (คู่ต่อสู้สุดกวน)**:
+    *   **Nong Nob (Beginner)**: น้องหนอบ ผู้มาพร้อมข้ออ้างเวลาแพ้ และคำพูดใสซื่อ
+    *   **Pro Kao (Intermediate)**: โปรเก้า นักพนันหมากรุกข้างถนนที่มีลูกล่อลูกชน
+    *   **Master Meow (Purple)**: อาจารย์เหมียว ผู้สุขุม เยือกเย็น คำนวณทุกอย่างล่วงหน้า
+    *   **Thunder God (Red)**: เทพเจ้าสายฟ้า ผู้ปกครองกระดานแดงระดับ Champion
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3.  **Powerful Game Engine**:
+    *   ใช้กติกา **หมากรุกสากล (International Chess)** มาตรฐานโลก
+    *   ระบบ AI ลอจิก **Minimax พร้อม Alpha-Beta Pruning** ที่ฉลาดขึ้นตามระดับ
+    *   รองรับ En Passant, Castling และ Promotion
 
-## Learn More
+4.  **Immersive Experience**:
+    *   **Magical SFX**: เสียงเอฟเฟกต์แบบสังเคราะห์ (Magic Swell & War Impact)
+    *   **Visual Ripple**: เอฟเฟกต์คลื่นพลังงานเมื่อมีการเดินหมาก
+    *   **Turn Timer**: ระบบจับเวลา 30 วินาที
 
-To learn more about Next.js, take a look at the following resources:
+## 🛠️ เทคโนโลยีที่ใช้ (Tech Stack)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+*   **Frontend**: Next.js 15 (App Router), React 19
+*   **Styling**: Tailwind CSS 4, CSS Animations
+*   **Game Logic**: Chess.js
+*   **Icons**: Lucide React
+*   **Audio**: Web Audio Context (Synthetic SFX)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 วิธีการติดตั้งและใช้งาน (Installation)
 
-## Deploy on Vercel
+1.  **Clone Repository**:
+    ```bash
+    git clone https://github.com/Insurgent-Dev/international-chess.git
+    ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2.  **Install Dependencies**:
+    ```bash
+    npm install
+    ```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3.  **Run Development Server**:
+    ```bash
+    npm run dev
+    ```
+    เปิดเบราว์เซอร์ไปที่ `http://localhost:3000`
+
+## 📖 กติกาการเล่น
+แอปนี้ใช้กติกาหมากรุกสากล คุณสามารถเดินหมากเพื่อรุกฆาต (Checkmate) คู่ต่อสู้ โดยในระหว่างเกม AI จะส่งข้อความเยาะเย้ยหรือทักทายคุณตามสถานการณ์จริงบนกระดาน!
+
+---
+**สร้างสรรค์โดย Antigravity AI** 🦾✨🏯
